@@ -1,6 +1,5 @@
-import posts from "./tuits.js";
-let tuits = posts;
-import tuitsDao from "./tuits-dao.js";
+// import posts from "./tuits.js";
+import * as tuitsDao from "./tuits-dao.js";
 
 const findTuits = async (req, res) => {
   const tuits = await tuitsDao.findTuits();

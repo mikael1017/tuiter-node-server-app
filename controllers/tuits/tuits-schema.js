@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const schema = mongoose.Schema(
+const tuitsSchema = mongoose.Schema(
   {
     tuit: String,
     likes: Number,
@@ -9,4 +9,4 @@ const schema = mongoose.Schema(
   { collection: "tuits" }
 );
 
-export default schema;
+export default tuitsSchema;
